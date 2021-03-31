@@ -35,6 +35,7 @@
         }
     },
     created() {
+        this.loginAPI = `${process.env.VUE_APP_APIPATH}/admin/signin`
     },
     methods : {
         login(){
